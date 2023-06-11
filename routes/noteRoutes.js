@@ -31,7 +31,7 @@ router.post('/', (req, res) => {
 
 // delete route to remove a note
 // Notice the :id. This means the route will have a paramater attached to it in the index.js file in public.
-// db.delete('/:id', (req, res) => {
+// router.delete('/:id', (req, res) => {
 //     // req.params.id matches :id. If I wrote :turtle, we would write req.params.turtle
 //     const myID = req.params.id;
 //     // Same thing as the post. If we are modifying our existing data, first we read it.
