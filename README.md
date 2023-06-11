@@ -11,7 +11,7 @@ Once the port is loaded a page will come up with a area for the note title and a
 
 
 
-<a href="https://github.com/asiabeoon/My-Note-Taker/">Deployed My Code Generator page</a>
+<a href="https://asiabeoon.github.io/My-Note-Taker/">Deployed My Note Takergit page</a>
 
 ![Screenshot](./public/assets/images/Screenshot%202023-06-11%20135854.png)
 
