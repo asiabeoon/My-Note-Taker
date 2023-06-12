@@ -3,7 +3,7 @@ const fs = require("fs");
 const { v4: uuidv4 } = require('uuid');
 // const { router } = require('./indexRoutes');
 
-// route for posting the new note. The complete route is now /api/groceries
+// route for posting the new note. 
 router.get('/', (req, res) => {
     // read from the file and send back the data to the client
     fs.readFile('./db/db.json', "utf-8", function (err, data) {
@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
         let myData = JSON.parse(data)
         const note = req.body;
 
-        // then add the new item to the previous list...
+        // then add the new item to the note list
         myData.push(note)
         // then save back into the list.
         fs.writeFile('./db/db.json', JSON.stringify(myData, null, 4), function (err) {
